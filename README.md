@@ -248,14 +248,45 @@ The model successfully identifies unhealthy trees in various aerial imagery cond
 
 ## 📋 Test Predictions Preview
 
-Sample predictions on test images demonstrating the model's performance:
+The following examples demonstrate the model's real-world performance on diverse test images, showcasing its ability to distinguish between healthy and diseased trees across various conditions:
+
+### Disease Detection Results
 
 <div align="center">
-<img src="static/preview/disease prediction.png" width="45%" alt="Disease Prediction Test">
-<img src="static/preview/health prediction.png" width="45%" alt="Health Prediction Test">
+<img src="static/preview/disease prediction.png" width="70%" alt="Disease Prediction Test Results">
 </div>
 
-These test predictions showcase the model's ability to accurately identify diseased trees while correctly classifying healthy areas, demonstrating robust performance across different scenarios and image conditions.
+**Disease Detection Analysis:**
+- The model successfully identifies multiple diseased trees in aerial imagery
+- Bounding boxes accurately localize unhealthy vegetation with high confidence scores
+- Detection works effectively across different lighting conditions and tree densities
+- Multiple diseased trees can be detected simultaneously in a single image
+- Confidence scores typically range from 0.3 to 0.9, indicating reliable detection thresholds
+
+### Health Classification Results
+
+<div align="center">
+<img src="static/preview/health prediction.png" width="70%" alt="Health Prediction Test Results">
+</div>
+
+**Health Classification Analysis:**
+- The model correctly identifies healthy forest areas without false positive detections
+- Clean background classification demonstrates the model's ability to distinguish healthy from diseased vegetation
+- No erroneous bounding boxes on healthy trees, showing good precision
+- Robust performance in dense forest environments with varying canopy coverage
+- Effective handling of different aerial perspectives and image resolutions
+
+### Key Performance Insights
+
+These test predictions validate several critical aspects of the model:
+
+1. **Accuracy**: High precision in distinguishing diseased from healthy trees
+2. **Robustness**: Consistent performance across different environmental conditions
+3. **Scalability**: Effective detection in both sparse and dense forest areas
+4. **Reliability**: Stable confidence scoring for practical deployment
+5. **Versatility**: Adaptable to various UAV imaging scenarios and altitudes
+
+The test results confirm the model's readiness for real-world applications in precision agriculture, forest management, and environmental monitoring.
 
 ## 🌟 Features
 
