@@ -246,6 +246,17 @@ Here are some example detections from the model showing unhealthy tree identific
 
 The model successfully identifies unhealthy trees in various aerial imagery conditions, with confidence scores ranging from 0.32 to 0.86. These examples demonstrate the model's ability to detect multiple diseased trees in a single image with accurate bounding boxes.
 
+## 📋 Test Predictions Preview
+
+Sample predictions on test images demonstrating the model's performance:
+
+<div align="center">
+<img src="static/preview/disease prediction.png" width="45%" alt="Disease Prediction Test">
+<img src="static/preview/health prediction.png" width="45%" alt="Health Prediction Test">
+</div>
+
+These test predictions showcase the model's ability to accurately identify diseased trees while correctly classifying healthy areas, demonstrating robust performance across different scenarios and image conditions.
+
 ## 🌟 Features
 
 - High-accuracy detection of unhealthy trees in aerial imagery
